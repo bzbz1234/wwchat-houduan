@@ -1,0 +1,45 @@
+#server:
+#  address: 0.0.0.0
+#  port: 8088
+#  servlet:
+#    encoding:
+#      charset: utf-8
+#      enabled: true
+#      force: true
+#
+#spring:
+#  datasource:
+#    username: root
+#    password: root
+#    url: jdbc:mysql://192.168.31.1:3306/dbcsdn
+#    #    url: jdbc:mysql:///pe
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#
+#logging:
+#  level:
+#    com.example: debug
+#  file:
+#    name: "log"
+#    path: D:\WorkSpace\idea\peer-evaluation_back\Logs
+#  pattern:
+#    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+#
+#
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#
+#mybatis:
+#  mapperLocations: classpath:mapper/*.xml
+#
+## application.yml 或 application.properties
+#
+## 定义全局变量
+#global:
+#  myValue1: 0
+#  myBooleanValue2: false
+#  myBooleanValue3: false
+#  myBooleanValue4: false
+#  myBooleanValue5: false
+#  myBooleanValue6: false
+#
